@@ -1,0 +1,12 @@
+local Texto: string = "ThisDoesntWorkWithOriginalLua"
+
+-- Aqui é a função de typerwriting
+function Incremental(str: string)
+	-- Aqui ele repete a quantidade de letras tem na string
+	for i = 1, #str do
+		-- Aqui ele pega a string, printa a primeira letra ate quantas vezes o loop aconteceu
+		print(str.sub(str, 1, i))
+	end
+end
+
+Incremental(Texto)
