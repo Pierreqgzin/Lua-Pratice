@@ -1,0 +1,16 @@
+local Dinheiro = math.random(16, 174)
+print("Seu Dinheiro: R$", Dinheiro)
+
+task.wait(5)
+
+-- Casino
+repeat
+	local n = math.random(1, 100)
+	print(n)
+	task.wait(0.05)
+until n == 100
+
+print("VOCÊ GANHOU!!")
+Dinheiro = Dinheiro + 100000
+print(Dinheiro)
+print("Você ganhou R$", 100000)
