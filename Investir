@@ -1,0 +1,15 @@
+local Dinheiro = 128
+
+function Investir()
+	local p = math.random(0, 1) -- Probabilidade de ganhar ou perder
+	if p == 1 then -- 50% de chance de ganhar dinheiro
+		Dinheiro = Dinheiro * 2
+		print("Voce investiu e ganhou dinheiro!	")
+	else -- 50% de chance de perder dinheiro
+		Dinheiro = Dinheiro / 2
+		print("Voce investiu e perdeu dinheiro... :(")
+	end
+	print(Dinheiro)
+end
+
+Investir(45)
