@@ -1,0 +1,12 @@
+-- Não me julgem, este script é apenas zoeira, nao me critiquem.
+while true do
+	local num = math.random(1, 100)
+	print(num)
+	if num == 67 then
+		print("meo deus que AURAAAALIKDJASKDHKJAHK")
+		break
+	else
+		print("nao é 67")
+	end
+	task.wait(1)
+end
