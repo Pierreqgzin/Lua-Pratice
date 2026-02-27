@@ -1,0 +1,9 @@
+local Letras: string = "qwertyuiopasdfghjklzxcvbnm"
+
+for i = 1, 26 do
+	-- Cada número representa a posição de uma letra na string
+	local rn = math.random(1, 26)
+	-- Pega apenas 1 caractere da string
+	print(string.sub(Letras, rn, rn))
+	wait(1)
+end
